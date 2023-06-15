@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <div id="containor"></div>
+
+    <script>
+       const containor =  document.getElementById('containor');
+
+       const heading1  = document.createElement("h1");
+       heading1.innerHTML = "hello this is heading one";
+
+       const heading2 = document.createElement("h2");
+       heading2.innerHTML = "hello this is heading two";
+
+       const paragraph = document.createElement("p")
+       paragraph.innerHTML = "this is paragraph tag from script";
+
+       containor.appendChild(heading1);
+       containor.appendChild(heading2);
+       containor.appendChild(paragraph);
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+.header{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+    border: 1px solid black;
+}
+
+.nav-items > ul {
+    list-style-type:none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 1px;
+    margin: 3px;
+}
+
+.logo{
+    height: 50px;
+    width: 60px;
+}
+
+.card{
+   width: 250px;
+   border: 1px solid black;
+   margin: 10px;
+   padding: 10px;
+}
+.card > img{
+    width: 100%;
+}
+
+.Restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+}

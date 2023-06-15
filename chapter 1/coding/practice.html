@@ -1,0 +1,54 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+  </head>
+  <!-- order matters alot -->
+  <body>
+    <!-- we can add react into small protion also -->
+    <div id="root">
+        Not Rendered
+        <!-- root will override all of things -->
+        <!-- <div id="title">hello world</div> -->
+        
+    </div>
+    
+    
+ 
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+ <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <script>
+    //  in all app there can be only one root and one rendor method
+
+      //this is pure React for creating a element 
+      // this takes 3 arguments 1. the tag 2. object(to give the parameter) 3. what we are putting inside
+    //   h1 comes frm core library
+      const heading = React.createElement("h1",{
+        id:"title",
+      },"Namaste Everyone!")
+    //   when we log heading it will give a js object
+    console.log(heading); 
+    //   and when we want to use dom and modyfy data in dom using react we have to use ReactDom api
+    // createRoot will tell what is root element in dom 
+    // ReactDOM ->injected into our file,responsible for all dom oprations
+    // createRoot -> takes in the element where we want to run react,hwhatever we pass into createroot it becomes the root
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+   //     and if we want to put heading into root we use render
+//    when we pass a react element inside rendor method this render method takes element and modify in dom
+   root.render(heading);
+
+  </script>
+
+
+ <!-- <script>
+ const heading = document.createElement("h1");
+ heading.innerHTML = "namste Everyone from javascript";
+ const root = document.getElementById("root")
+ root.appendChild(heading); -->
+ </script>
+ </body>
+  </html>

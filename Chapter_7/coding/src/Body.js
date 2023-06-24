@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { resturantList } from "./config";
 import Shimmer from "./shimmer";
 import { CDN_LINK } from "../../../Chapter_7/coding/src/config";
+import { Link } from "react-router-dom";
 
 const ResturantCard = ({
   cloudinaryImageId,
@@ -52,7 +53,7 @@ const Body = () => {
       "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(json);
+    // console.log(json);
     setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
     setFilterdRestaurant(json?.data?.cards[2]?.data?.data?.cards);
   }
@@ -86,8 +87,15 @@ const Body = () => {
       </div>
       <div className="Restaurant-list">
         {FilteredRestaurant.map((resturant) => {
-          return <ResturantCard key={resturant.data.id} {...resturant.data} />;
-        })}
+          return (
+          <Link to={"/restaurant/"+resturant.data.id}
+          key={resturant.data.id}
+          >
+          <ResturantCard {...resturant.data} />;
+          </Link>
+          )
+        }
+      )}
       </div>
     </>
   );

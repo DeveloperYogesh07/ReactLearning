@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { resturantList } from "./config";
 import Shimmer from "./shimmer";
 import { CDN_LINK } from "../../../Chapter_7/coding/src/config";
+import { Link } from "react-router-dom";
+import { filterData } from "../../Utils/Helper";
+import useOnline from "../../Utils/useOnline";
 
 const ResturantCard = ({
   cloudinaryImageId,
@@ -30,12 +33,7 @@ const ResturantCard = ({
   );
 };
 
-function filterData(SearchInput, Restaurants) {
-  const data = Restaurants.filter((restaurant) =>
-    restaurant?.data?.name?.toLowerCase()?.includes(SearchInput.toLowerCase())
-  );
-  return data;
-}
+
 
 const Body = () => {
   const [AllRestaurants, setAllRestaurants] = useState([]);
@@ -49,12 +47,19 @@ const Body = () => {
 
   async function getRestaurants() {
     const data = await fetch(
-      "https://corsproxy.io/?https://www.swiggy.com/dapi/restaurants/list/v5?lat=21.1702401&lng=72.83106070000001&page_type=DESKTOP_WEB_LISTING"
+      "https://www.swiggy.com/dapi/restaurants/list/v5?lat=27.9749822&lng=73.314864&page_type=DESKTOP_WEB_LISTING"
     );
     const json = await data.json();
-    console.log(json);
+    // console.log(json);
     setAllRestaurants(json?.data?.cards[2]?.data?.data?.cards);
     setFilterdRestaurant(json?.data?.cards[2]?.data?.data?.cards);
+  }
+
+
+  const offline = useOnline();
+
+  if(offline){
+     return <h1>You are offline! please check your internet connection!</h1>
   }
 
   if(!AllRestaurants) return null;
@@ -86,8 +91,15 @@ const Body = () => {
       </div>
       <div className="Restaurant-list">
         {FilteredRestaurant.map((resturant) => {
-          return <ResturantCard key={resturant.data.id} {...resturant.data} />;
-        })}
+          return (
+          <Link to={"/restaurant/"+resturant.data.id}
+          key={resturant.data.id}
+          >
+          <ResturantCard {...resturant.data} />;
+          </Link>
+          )
+        }
+      )}
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Title = () => (
     <a href="/">
@@ -18,9 +19,10 @@ const Header = () => {
         <Title />
         <div className="nav-items">
           <ul>
-            <li>Home</li>
-            <li>about</li>
-            <li>Contact us</li>
+            <Link to="/"><li>Home </li></Link>
+            <Link to="/about"><li>About </li></Link>
+            <Link to="/contact"><li>Contact us </li></Link>
+            <Link to="/InstaMart"><li>InstaMart </li></Link>
             <li>cart</li>
           
         <li>

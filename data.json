@@ -1,0 +1,1007 @@
+{
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "652116",
+              "name": "Tastism",
+              "city": "Bikaner",
+              "slugs": {
+                "restaurant": "tastism-chanakya-nagar-chanakya-nagar",
+                "city": "bikaner"
+              },
+              "uniqueId": "17b0998d-0411-4314-b043-e626b587eb73",
+              "cloudinaryImageId": "6d7ddd6c791058d732ce4ba987b731b8",
+              "locality": "Ramdevji Road",
+              "areaName": "Gangashahar",
+              "costForTwo": "30000",
+              "costForTwoMessage": "₹300 for two",
+              "cuisines": [
+                "Sweets"
+              ],
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "652116",
+                "fees": [
+                  {
+                    "name": "distance",
+                    "fee": 500
+                  },
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 500,
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "0-5 kms | Flat Rs 5 delivery on orders above Rs 199 and Free delivery above Rs 299"
+              },
+              "parentId": "392451",
+              "avgRatingString": "--",
+              "totalRatingsString": "Too Few Ratings",
+              "sla": {
+                "restaurantId": "652116",
+                "deliveryTime": 22,
+                "minDeliveryTime": 22,
+                "maxDeliveryTime": 22,
+                "lastMileTravel": 2.3,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1622,
+                "slaString": "22 MINS",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-06-24 21:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+                  
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "15% off upto ₹300 | Use CITIFOODIE Above ₹1200",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "15% off up to ₹125 | Use FEDERALCC125  Above ₹399",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+                
+              },
+              "slugString": "tastism-chanakya-nagar-chanakya-nagar",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Near The Star Collection, Ramdevji Road, Old Ln, Gangashahar, Rajasthan 334401, India"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Sweets"
+                }
+              ],
+              "aggregatedDiscountInfoV2": {
+                "shortDescriptionList": [
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "15% off upto ₹300 | Use CITIFOODIE Above ₹1200",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "15% off up to ₹125 | Use FEDERALCC125  Above ₹399",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/652116"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "0-5 kms | Flat Rs 5 delivery on orders above Rs 199 and Free delivery above Rs 299",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {
+                      
+                    }
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>0-5 kms</b> | Flat Rs 5 delivery on orders above Rs 199 and Free delivery above Rs 299",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {
+                      
+                    }
+                  }
+                }
+              ],
+              "orderabilityCommunication": {
+                "title": {
+                  
+                },
+                "subTitle": {
+                  
+                },
+                "message": {
+                  
+                },
+                "customIcon": {
+                  
+                }
+              },
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+                  
+                },
+                "presentation": {
+                  
+                }
+              },
+              "areaPostalCode": "0",
+              "latLong": "27.982901852288,73.297255097518"
+            },
+            "analytics": {
+              
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 3,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+                
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {
+                
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹300",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
+                      "offerIds": [
+                        "2e768aa9-8a54-4e48-aed9-9dc94c8a2a80"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE CITIFOODIE",
+                      "description": "ABOVE ₹1200",
+                      "offerType": "offers",
+                      "restId": "652116",
+                      "offerLogo": "rng/md/ads/production/15fb1cfe885005447dc8375e7970600f",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "15% OFF UPTO ₹125",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                      "offerIds": [
+                        "7a08c7dd-b0ab-466f-8a90-4da6900b5457"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FEDERALCC125",
+                      "description": "ABOVE ₹399",
+                      "offerType": "offers",
+                      "restId": "652116",
+                      "offerLogo": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+                      "offerIds": [
+                        "0cc9ea98-af86-45e3-a615-92821656d208"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE AUCC100",
+                      "description": "ABOVE ₹399",
+                      "offerType": "offers",
+                      "restId": "652116",
+                      "offerLogo": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+                        
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fruit Katlies",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524153",
+                              "name": "Strawberry katli",
+                              "category": "Fruit Katlies",
+                              "description": "Strawberrykatli sweet recipe is a leathery sweet made from sweetened and sun dried strawberry pulp\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It is delicious and tasty aam papad\n100% hand made, mouth-watering flavor & aroma, authentic indian taste, premium packaging",
+                              "imageId": "afaf47abd54b816a1fc402d7a92d187f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524160",
+                              "name": "Kiwi katli",
+                              "category": "Fruit Katlies",
+                              "description": "Taste the exotic flavour of our kiwi katli made of pure kiwi frui pulp. A one kind of sweet. Premium quality kiwi katli/barfi| made with real fruit pulp",
+                              "imageId": "4483d16088324909a5518389a4f703d8",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524155",
+                              "name": "Pineapple katli",
+                              "category": "Fruit Katlies",
+                              "description": "Pineapple katli sweet recipe is a leathery sweet made from sweetened and sun dried pineapple pulp\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It is delicious and tasty aam papad\n100% hand made, mouth-watering flavor & aroma, authentic indian taste, premium packaging",
+                              "imageId": "7922e163ab779353ee657c114d39ee48",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524156",
+                              "name": "Orange katli",
+                              "category": "Fruit Katlies",
+                              "description": "Pineapple katli sweet recipe is a leathery sweet made from sweetened and sun dried orange pulp\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It is delicious and tasty sweet which have texture like jelly.\n100% hand made, mouth-watering flavor & aroma, authentic indian taste, premium packaging",
+                              "imageId": "cf7596990978c7052c2bd4c35c12e75d",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524157",
+                              "name": "Lychee katli",
+                              "category": "Fruit Katlies",
+                              "description": "Lychee katli sweet recipe is a leathery sweet made from finest quality lychees. Its premium taste along with the thik pulpy texture makes it an unbeleivably heavenly sweet.\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It is delicious and tasty aam papad\n100% hand made, mouth-watering flavor & aroma, authentic indian taste, premium packaging",
+                              "imageId": "07cffc31a2800d46c76bddb6e67f8428",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524159",
+                              "name": "Mango katli",
+                              "category": "Fruit Katlies",
+                              "description": "Mango katli sweet recipe is a leathery sweet made from finest quality mangoes. Its premium taste along with the thik pulpy texture makes it an unbeleivably heavenly sweet.\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It has jelly candy like texture and its 100% vegan. No harmfull chemical are used while making",
+                              "imageId": "a9844e775d528accb026a3604679b3f1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524161",
+                              "name": "Kachha mango katli",
+                              "category": "Fruit Katlies",
+                              "description": "Kachha mango katli sweet & sour flavoured jelly candy is a leathery sweet made from finest quality raw mangoes. Its premium taste along with the thik pulpy texture makes it an unbeleivably heavenly sweet.\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It has jelly candy like texture and its 100% vegan. No harmfull chemical are used while making",
+                              "imageId": "0989460a6cb81c63d760e2edcb805094",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524163",
+                              "name": "Tamarind katli",
+                              "category": "Fruit Katlies",
+                              "description": "Tamarind katli sweet & sour flavoured jelly candy is a leathery sweet made from finest quality raw tamarind. Its premium taste along with the thik pulpy texture makes it an unbeleivably heavenly sweet.\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It has jelly candy like texture and its 100% vegan. No harmfull chemical are used while making",
+                              "imageId": "c064909822c8b63799974aae655d340e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524165",
+                              "name": "Jamun kali",
+                              "category": "Fruit Katlies",
+                              "description": "Jamun katli sweet flavoured jelly candy is a leathery sweet made from finest quality jamuns. Its premium taste along with the thik pulpy texture makes it an unbeleivably heavenly sweet.\nprepared, processed and packed in a very hygienic condition to ensure better quality and authentic flavor.\nit does not have any gmo and gluten in it. It has jelly candy like texture and its 100% vegan. No harmfull chemical are used while making",
+                              "imageId": "34f4c72670632eff4c43213a7665e380",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14286,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Fruit Bars",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524167",
+                              "name": "Alphanso mango bars",
+                              "category": "Fruit Bars",
+                              "description": "Premium quality alphanso mango papad slices made with real raw mango fruit pulp. It has sweet taste. It is really fresh and pure ingredients. Exclusively made of premium quality raw mangoes. This fruity mithai / sweet is an amazing option for the lovers of fruits.",
+                              "imageId": "bf4567bfc7ea55924a66f1e35820ee1e",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15179,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524169",
+                              "name": "Guava bars",
+                              "category": "Fruit Bars",
+                              "description": " Premium quality guava papad slices\\ made with real fruit pulp \\ peru bars. It is really fresh and pure ingredients. Exclusively made of natural red guava. This fruity mithai / sweet is an amazing option for the lovers of fruits.",
+                              "imageId": "592c3015e17af3eeecbf2804c5cef600",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15179,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524170",
+                              "name": "Tamarind bars",
+                              "category": "Fruit Bars",
+                              "description": "Premium quality tamarind papad sliced\\ made with real fruit pulp. It is really fresh and pure ingredient. Exclusively made of natural tamarind. This fruity mithai / sweet is an amazing option for the lovers of fruits.",
+                              "imageId": "f0b363d7690d9cc0932f711f57a011ed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15179,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524172",
+                              "name": "Green mango bars",
+                              "category": "Fruit Bars",
+                              "description": "Premium quality green mango papad slices made with real raw mango fruit pulp. It has sweet and tangy taste. It is really fresh and pure ingredients. Exclusively made of premium quality raw mangoes. This fruity mithai / sweet is an amazing option for the lovers of fruits.",
+                              "imageId": "ff89dce259ab9f4aba2abb83f8107518",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15179,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524174",
+                              "name": "Pudina pataka",
+                              "category": "Fruit Bars",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "106524176",
+                              "name": "Chatori aam papad",
+                              "category": "Fruit Bars",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {
+                                
+                              },
+                              "variantsV2": {
+                                
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+                                
+                              },
+                              "badgesV2": {
+                                
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  
+                                }
+                              }
+                            },
+                            "analytics": {
+                              
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 22219070002711"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Tastism",
+                      "area": "Gangashahar",
+                      "completeAddress": "Near The Star Collection, Ramdevji Road, Old Ln, Gangashahar, Rajasthan 334401, India"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true
+  }

@@ -13,8 +13,8 @@
 }
 
 .nav-items > ul > li {
-    padding: 1px;
-    margin: 3px;
+    padding: 3px;
+    margin: 5px;
 }
 
 .logo{
@@ -36,7 +36,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
 .shimmerCard{
     width: 250px;
    border: 1px solid black;

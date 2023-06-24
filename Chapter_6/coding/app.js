@@ -6,6 +6,7 @@ import Footer from "./src/Footer"
 
 
 
+
 const AppLayout = () =>{
     return(
         <>
@@ -15,6 +16,9 @@ const AppLayout = () =>{
         </>
     )
 }
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
